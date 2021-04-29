@@ -11,6 +11,9 @@ CREATE TABLE teachers (
 
 
 
+
+
+
 CREATE TABLE assistance_requests (
   id SERIAL PRIMARY KEY NOT NULL,
   student_id INTEGER REFERENCES students(id) ON DELETE CASCADE,
